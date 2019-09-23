@@ -23,6 +23,11 @@ coincidesInAll r rs = or (map (rectangleCoincidesCompletely r) rs)
 rectangleIsAdjacent :: Rectangle -> Rectangle -> Bool
 rectangleIsAdjacent r1 r2 = False 
 
+removeItem :: Eq a => a -> [a] -> [a]
+removeItem x [] = []
+removeItem x xs | x == (head xs) = tail xs
+                | otherwise = (head xs) : removeItem x (tail xs)
+
 moveNext :: [Rectangle] -> [Rectangle]
 moveNext (r:rs) = rs ++ [r]
 
