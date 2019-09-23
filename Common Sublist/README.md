@@ -1,0 +1,1 @@
+This function accepts a list of lists and returns a list which is the longest sublist of all lists in the list. Function is called with "longestCommonSubList inputList" where inputList is the list of lists
