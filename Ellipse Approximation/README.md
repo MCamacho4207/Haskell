@@ -1,0 +1,1 @@
+Small program that generates an set of pixels which is the best approximation of an ellipse. Function is called with "drawEllipse x y a b" where x and y are the coordinates of the center of the ellipse and a and b are the generator lines of the ellipse.
