@@ -1,0 +1,1 @@
+This function uses the Hill Climb algorithm to find the approximation of a local maximum of a polynomial with an approximation margin delta using some intial step value. The function can be called with "hillClimb f x1 x2 delta" where f is the polynimial and x1 and x2 are boundaries of the checking area and delta is the approximation margin.
