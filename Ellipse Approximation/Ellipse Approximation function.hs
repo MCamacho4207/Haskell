@@ -1,6 +1,8 @@
 
 -- Ellipse Approximation function
 -- convert an ellipse into a minimal list of rectangles representing its image
+data Rectangle = Rectangle (Int, Int) (Int, Int) deriving (Eq, Show)
+
 drawEllipse :: Float -> Float -> Float -> Float -> [Rectangle]
 drawEllipse x y a b = []
 
