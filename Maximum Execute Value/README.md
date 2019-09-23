@@ -1,0 +1,1 @@
+This function, given a set of integers, will return the instruction sequence (or multiple in the case of multiple sequences returning the maximum value) which results in the largest value. This function is called with "findBusyBeavers intList" where intList is the list of integers in question. 
