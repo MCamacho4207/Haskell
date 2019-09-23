@@ -1,0 +1,1 @@
+By modelling an image as a set of rectangles we can ask if the same image can drawn but with fewer rectangles, making the image more efficient in terms of rectangles. The function is called with "simplifyRectangleList recList" where recList is the list of rectangles which represents an image.
