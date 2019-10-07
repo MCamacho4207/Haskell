@@ -1,0 +1,1 @@
+This function accepts a list of orderable data types (data types which have an ordering associated to them) and returns a list containing the input list split into stritcly ascending, descending and equal order. This function is called with "splitSort inputList", where inputList is the list to be sorted.
